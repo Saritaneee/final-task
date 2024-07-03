@@ -1,0 +1,14 @@
+@host = localhost:9988
+
+// Register User
+DELETE  http://{{host}}/api/v1/user/id HTTP/1.1
+content-type: application/json
+
+{
+    "name": "azka",
+    "username": "azka",
+    "email": "tane@gmail.com",
+    "password": "123465789"
+}
+
+###
